@@ -1,0 +1,11 @@
+[variables]
+dicom_dir = ./dicoms
+png_dir = ./pngs
+png_mask_dir = ./png_masks
+processed_image_dir = ./processed_images
+processed_mask_dir = ./processed_masks
+mask_dir = ./masks
+folder = ./
+num_cases = 3
+
+
