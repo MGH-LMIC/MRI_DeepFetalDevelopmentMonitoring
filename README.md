@@ -18,7 +18,7 @@ Run preprocess.py to preprocess the data. This step prepares the data for traini
 Execute split_data.py to split the dataset into training, validation, and testing sets.
 ## Model Training:
 
-Train your deep learning model by running train.py. This step uses the prepared dataset to train the model for fetal fluid volume and fetal weight segmentation.
+Train your deep learning model by running train.py. This step uses the prepared dataset to train the model for fetal fluid volume and fetal body segmentation.
 ## Model Testing:
 
 After training, evaluate the model's performance with the testing dataset using test.py.
