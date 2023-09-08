@@ -27,6 +27,7 @@ After training, evaluate the model's performance with the testing dataset using 
 ## Inference:
 
 Use the trained model to make predictions on new data by running predict_volumes.py.
+The file all_new_afv_volums_small.csv contains the original dicom image sizes which are required for rescaling predicted masks to the original size before volume calculation.
 ## Requirements
 Python (3.x)
 PyTorch 
