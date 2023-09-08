@@ -10,9 +10,12 @@ To get started with the project, follow these steps:
 
 Add your DICOM image files to the dicoms folder.
 Add corresponding mask images to the masks folder.
+The config.txt contains the names of directories where data is stored. Make sure to create "dicoms" and "masks" folders before starting data processing.
+Save dicom files in the "dicoms" folder and mask dicom files in the "masks" folder.
 ## Data Preprocessing:
 
 Run preprocess.py to preprocess the data. This step prepares the data for training and testing.
+Once run, the preprocess.py will create all the necessary directories based on the config.txt file.
 ## Data Splitting:
 
 Execute split_data.py to split the dataset into training, validation, and testing sets.
