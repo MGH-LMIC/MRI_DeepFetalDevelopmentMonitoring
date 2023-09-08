@@ -1,4 +1,4 @@
-# Deep Fetal Development Monitoring (EFDM)
+# Deep Fetal Development Monitoring (DFDM)
 ## Overview
 The Deep Fetal Development Monitoring project leverages deep learning techniques to quantify fetal fluid volume and fetal weight through MRI image segmentation. This repository contains the code and instructions to preprocess, train, test, and predict volumes using the trained model.
 
